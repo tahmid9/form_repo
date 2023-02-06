@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pitha form</title>
+    <style>
+      label {
+        display: block;
+        margin: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Welcom to kamaler ma pitha house</h3>
+    <form>
+      <label for="name"
+        >Your Name
+        <input id="name" type="text" placeholder="your name" />
+      </label>
+
+      <label for="email">
+        Your Email
+        <input id="email" type="email" placeholder="your email" />
+      </label>
+      <label for="mobile">
+        Your Mobile
+        <input id="mobile" type="number" placeholder="your mobile number" />
+      </label>
+      <fieldset>
+        <legend>Pick one item / pitha</legend>
+        <label for="chitoy">
+          <input type="radio" name="pitha" id="chitoy" />
+          Chitoy
+        </label>
+        <label for="Vapa">
+          <input type="radio" name="pitha" id="Vapa" />
+          Vapa
+        </label>
+        <label for="Semai">
+          <input type="radio" name="pitha" id="Semai" />
+          Semai
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select one or more vorta/catni</legend>
+        <label for="dhoniya catni"></label>
+        <input type="checkbox" name="catni" id="dhoniya catni" />
+        dhoniya catnio
+        <label for="sutki vorta"></label>
+        <input type="checkbox" name="catni" id="sutki vorta" />
+        sutki vorta
+        <label for="morich vorta "></label>
+        <input type="checkbox" name="catni" id="morich vorta " />
+        morich vorta
+        <label for="sorisha vorta "></label>
+        <input type="checkbox" name="catni" id="sorisha vorta " />
+        sorisha vorta
+      </fieldset>
+      <fieldset>
+        <legend>Special instruction</legend>
+        <textarea name="" id="" cols="60" rows="3"></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="reset" value="Reset" />
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
